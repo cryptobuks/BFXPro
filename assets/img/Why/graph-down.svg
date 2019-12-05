@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="449.881" height="259.547" viewBox="0 0 449.881 259.547">
+  <defs>
+    <linearGradient id="linear-gradient" x1="18.558" y1="1.172" x2="18.55" y2="-0.018" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#294480"/>
+      <stop offset="1" stop-color="#59badf"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1216" data-name="Grupo 1216" transform="translate(1020.716 -2558.62)">
+    <path id="Trazado_1338" data-name="Trazado 1338" d="M1031.649,2526c14.311,0,107.09,100.66,129.578,99.807s40.109-29.857,85.086-30.71,46,65.685,76.666,64.832c30.8-.857,29.645-17.914,56.222-19.62s74.622,46.917,74.622,46.917v97.248H1031.649Z" transform="translate(-2050.354 33.693)" opacity="0.46" fill="url(#linear-gradient)"/>
+    <path id="Trazado_1339" data-name="Trazado 1339" d="M1453.312,2686.8s-48.044-48.624-74.622-46.918-25.419,18.763-56.222,19.62c-30.666.853-31.688-65.684-76.666-64.831s-62.513,30.709-85,31.562-115.352-99.806-129.663-99.806" transform="translate(-2050.354 33.693)" fill="none" stroke="#4ba0c8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <circle id="Elipse_231" data-name="Elipse 231" cx="9.384" cy="9.384" r="9.384" transform="translate(-652.917 2675.001)" fill="#4ba0c8"/>
+    <circle id="Elipse_232" data-name="Elipse 232" cx="9.384" cy="9.384" r="9.384" transform="translate(-872.918 2641.733)" fill="#4ba0c8"/>
+    <text id="BUY" transform="translate(-661.371 2722.007)" fill="#fff" font-size="9" font-family="Helvetica"><tspan x="0" y="0">BUY</tspan></text>
+    <text id="Market_price" data-name="Market 
+price" transform="translate(-1007.767 2787.92)" fill="#fff" font-size="15.355" font-family="Helvetica"><tspan x="0" y="0">Market </tspan><tspan x="0" y="15.355">price</tspan></text>
+    <text id="Profit" transform="translate(-606.834 2660.816)" fill="#fff" font-size="15.355" font-family="Helvetica"><tspan x="0" y="0">Profit</tspan></text>
+    <rect id="Rectángulo_836" data-name="Rectángulo 836" width="34.122" height="17.914" rx="2.879" transform="translate(-668.613 2709.55)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+    <text id="SELL" transform="translate(-887.709 2624.76)" fill="#fff" font-size="9" font-family="Helvetica"><tspan x="0" y="0">SELL</tspan></text>
+    <rect id="Rectángulo_837" data-name="Rectángulo 837" width="34.122" height="17.914" rx="2.879" transform="translate(-895.523 2611.303)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+    <line id="Línea_233" data-name="Línea 233" y2="153.549" transform="translate(-863.961 2661.779)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="6" stroke-width="1" stroke-dasharray="8"/>
+  </g>
+</svg>

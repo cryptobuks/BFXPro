@@ -1,0 +1,347 @@
+.About {
+    background: url('../../assets/img/About/about.webp');
+    width: 100vw;
+    height: 218.7vw;
+    background-position: -1.1vw -1.1vw;
+    background-size: 109.2vw;
+    background-repeat: no-repeat;
+}
+
+.About__Flex {
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 11vw;
+}
+
+.About__Title {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 1.9vw;
+    font-style: italic;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.About__Green {
+    color: #33CC66;
+    font-style: italic;
+}
+
+.About__Subtitle {
+    font-family: 'Exo 2',sans-serif;
+    font-size: 1.9vw;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.About__Row {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    padding: 6vw 30vw;
+    justify-content: space-between;
+}
+
+.About__Number {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    font-size: 1vw;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.About__Ribbon-Title{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.9vw;
+    font-style: italic;
+}
+
+.About__Ribbon-Sub {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.7vw;
+    font-style: italic;
+}
+
+.About__Description-Flex {
+    display: flex;
+    flex-direction: row;
+    padding: 0vw 13vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.About__Description {
+    width: 38vw;
+    font-size: 0.9vw;
+    line-height: 1.4vw;
+    font-family: 'Roboto', sans-serif;
+    color: #B6D0EF;
+    font-weight: 400;
+    margin-bottom: 8vw;
+    text-align: justify;
+}
+
+.About__Img {
+    width: 28vw;
+}
+
+.HR__Green {
+    background: #33CC66;
+    border-radius: 3vw;
+    border-width: 0vw;
+    width: 4vw;
+    height: 0.2vw;
+    margin-bottom: 1vw;
+}
+
+.About__Provide {
+    display: flex;
+    flex-direction: column;
+    padding: 0vw 13vw;
+    height: 17vw;
+}
+
+.About__Provide-Title {
+    color: #33CC66;
+    margin-bottom: 2vw;
+}
+
+.About__Provide-Description {
+    width: 54vw;
+    font-size: 0.9vw;
+    line-height: 1.4vw;
+    font-family: 'Roboto', sans-serif;
+    color: #B6D0EF;
+    font-weight: 400;
+    margin-bottom: 0vw;
+    text-align: justify;
+}
+
+.About__Info {
+    background: #3FA1C6;
+    width: 76vw;
+    height: 13vw;
+    margin: 0vw 13vw;
+    border-radius: 1vw;
+    border-width: 0.07vw;
+    border-style: solid;
+    border-color: #80FFFF;
+    display: flex;
+    filter: drop-shadow(0.1vw 0.6vw 1.3vw #00284BD4);
+    padding: 0vw 7.7vw;
+    justify-content: space-between;
+}
+
+.About__Why {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 13vw;
+}
+
+.About__Why-Img {
+    width: 5vw;
+}
+
+.About__Why-Text{
+    font-family: 'Exo 2',sans-serif;
+    font-size: 1.6vw;
+    color: #FFFFFF;
+}
+
+.About__Safe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 14vw;
+}
+
+.About__Safe-Img {
+    width: 5vw;
+}
+
+.About__Safe-Text{
+    font-family: 'Exo 2',sans-serif;
+    font-size: 1.6vw;
+    color: #FFFFFF;
+}
+
+.About__License {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 16.3vw;
+}
+
+.About__License-Img {
+    width: 5vw;
+}
+
+.About__License-Text{
+    font-family: 'Exo 2',sans-serif;
+    font-size: 1.6vw;
+    color: #FFFFFF;
+}
+
+.About__Video {
+    width: 40vw;
+    height: 30vw;
+    border-radius: 1vw;
+}
+
+.About__Video-Container {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 24vw;
+    align-items: center;
+}
+
+iframe {
+    width: 36vw !important;
+    height: 20vw !important;
+  }
+
+.About__Video-Title {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.4vw;
+    font-style: italic;
+    padding: 1vw 0vw;
+}
+
+.About__Values {
+    background: #3FA1C6A5;
+    width: 76vw;
+    height: 32vw;
+    margin: 2vw 13vw;
+    border-radius: 1vw;
+    border-width: 0.07vw;
+    border-style: solid;
+    border-color: #80FFFF;
+    display: -webkit-box;
+    display: flex;
+    -webkit-filter: drop-shadow(0.1vw 0.6vw 1.3vw rgba(0,40,75,0.83137));
+    filter: drop-shadow(0.1vw 0.6vw 1.3vw rgba(0,40,75,0.83137));
+    padding: 5vw 7.7vw;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.HR__White {
+    background: #FFFFFF;
+    border-radius: 3vw;
+    border-width: 0vw;
+    width: 2.5vw;
+    height: 0.15vw;
+    margin-bottom: 0.7vw;
+}
+
+.About__Enterprise{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.About__Overcome {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.About__Values-Title {
+    font-size: 1.3vw;
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+
+.About__Values-Title {
+    font-size: 1.3vw;
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.About__Text {
+    font-size: 1.1vw;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #B6D0EF;
+    padding: 2vw 0vw;
+    width: 28vw;
+    line-height: 1.4vw;
+}
+
+.About__Bars-Flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 16vw;
+}
+
+.About__Bars-Title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3vw;
+    color: #33CC66;
+    text-align: right;
+}
+
+.About__Bars {
+    display: flex;
+    flex-direction: column;
+}
+
+.About__Bars-Text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9vw;
+    color: #E0EEFF;
+    font-weight: 400;
+    line-height: 1.5vw;
+    text-align: justify;
+}
+
+.About__Social {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0vw 16vw;
+}
+
+
+.About__Social-Img {
+    width: 28vw;
+}
+
+.About__Bars-Img {
+    width: 28vw;
+}
+
+
+.Ribbon {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 2vw 0vw;
+}
+
+
+.Ribbon__Img {
+    width: 63vw;
+}

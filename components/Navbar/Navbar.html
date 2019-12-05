@@ -1,0 +1,34 @@
+<div class="Navbar">
+  <img class="Navbar__Logo" src="../../assets/img/Navbar/logo.svg">
+  <div class="Navbar__Column">
+    <div class="Navbar__Contact-Flex">
+      <p class="Navbar__Contact" href="">{{$t('navbar.contact')}}</p>
+      <a class="Navbar__SignIn" target="_blank" href="https://my.bfxpro.io/login">{{$t('navbar.login')}}</a>
+      <a class="Navbar__SignUp" target="_blank" href="https://my.bfxpro.io/register">{{$t('navbar.open')}}</a>
+    </div>
+    <div class="Navbar__Home-Flex">
+      <nuxt-link to="/"><img class="Navbar__Home" src="../../assets/img/Navbar/home.svg" alt="Home"></nuxt-link>
+      <a @mouseover="hoverAbout()" class="Navbar__About">{{$t('navbar.about')}}</a>
+      <a class="Navbar__Products" @mouseover="hoverProducts()" href="">{{$t('navbar.products')}}</a>
+      <nuxt-link to="/account" @mouseover.native="hoverAccounts()" class="Navbar__Accounts">{{$t('navbar.accounts')}}</nuxt-link>
+      <nuxt-link class="Navbar__Promotions" to="/">{{$t('navbar.training')}}</nuxt-link>
+      <LanguageSwitcher/>
+    </div>
+    <div @mouseleave="hoverAbout()" v-show="!hoverAboutPopup" class="Navbar__About-Popup">
+      <nuxt-link class="Navbar__About-Who" to="/about">{{$t('navbar.who')}}</nuxt-link>
+      <nuxt-link class="Navbar__About-Why" to="/why">{{$t('navbar.why')}}</nuxt-link>
+    </div>
+    <div @mouseleave="hoverAccounts()" v-show="!hoverAccountsPopup" class="Navbar__Accounts-Popup">
+      <nuxt-link class="Navbar__Accounts-Real" to="/realAccount">{{$t('navbar.real')}}</nuxt-link>
+      <nuxt-link class="Navbar__Accounts-Demo" to="/demoAccount">{{$t('navbar.demo')}}</nuxt-link>
+      <nuxt-link class="Navbar__Accounts-Options" to="/options">{{$t('navbar.options')}}</nuxt-link>
+    </div>
+    <div @mouseleave="hoverProducts()" v-show="!hoverProductsPopup" class="Navbar__Products-Popup">
+      <nuxt-link class="Navbar__Products-Real" to="/investment">{{$t('navbar.investment')}}</nuxt-link>
+      <nuxt-link class="Navbar__Products-Demo" to="/ib">{{$t('navbar.ib')}}</nuxt-link>
+      <nuxt-link class="Navbar__Products-Options" to="/pamm">{{$t('navbar.pamm')}}</nuxt-link>
+      <nuxt-link class="Navbar__Products-Options" to="/mam">{{$t('navbar.mam')}}</nuxt-link>
+      <nuxt-link class="Navbar__Products-Options" to="/social">{{$t('navbar.social')}}</nuxt-link>
+    </div>
+  </div>
+</div>

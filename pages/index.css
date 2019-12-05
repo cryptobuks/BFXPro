@@ -1,0 +1,1029 @@
+.Index {
+    background: url('../assets/img/Index/bg-index.webp');
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 0vw 0vw;
+    background-size: 100.1vw;
+}
+
+.Open {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding: 0vw 20vw;
+    height: 18vw;
+}
+
+.Open__Title {
+        display: flex;
+        font-size: 1.9vw;
+        font-weight: 400;
+        color: #FFFFFF;
+        flex-direction: row;
+}
+
+.Open__Row{
+    display: flex;
+    width: 27.2vw;
+    justify-content: space-between;
+    padding: 4vw 0vw 0vw 0vw;
+}
+
+.Open__Button-Demo {
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 13.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5caaff), color-stop(99.97%, #54ff9d));
+    background: linear-gradient(150deg, #5caaff 0%, #54ff9d 159.97%);
+    box-shadow: 0.104vw 0.104vw 0.521vw rgba(53, 128, 238, 0.26);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+}
+
+.Open__Button-Real {
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 13.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: #008deb;
+    box-shadow: 2px 2px 10px rgba(53, 128, 238, 0.26);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+}
+
+.Opera {
+    flex-direction: column;
+    display: flex;
+}
+
+.Opera__Flex-Row {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0vw 15vw 0vw 20vw;
+}
+
+.Opera__Flex-Column {
+    display: flex;
+    flex-direction: row;
+}
+
+.Opera__Title {
+    display: flex;
+    font-size: 1.9vw;
+    font-weight: 400;
+    color: #FFFFFF;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.Opera__Main-Text {
+        font-size: 1vw;
+        font-family: 'Roboto', sans-serif;
+        color: #C7DFFF;
+        font-weight: 400;
+        margin: -9vw 0vw 0vw 0vw;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+}
+
+.Opera__Flex-Column-Center {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3vw 4vw;
+    height: 26vw;
+    width: 20vw;
+}
+
+.Opera__Flex-Column-Center-Right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: space-between;
+    padding: 1.5vw 0vw 1vw 0vw;
+    height: 24.5vw;
+    text-align: center;
+    display: -webkit-box;
+    display: flex;
+    width: 15vw;
+}
+
+.Opera__Sub-Text{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 0.8vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+.Opera__Invest {
+    width: 4.936vw;
+    margin: -1.3vw 0vw 0vw 0vw;
+}
+
+.Opera__Benefits{
+    width: 5.311vw
+}
+
+.Opera__Wallet {
+    width: 5.311vw;
+}
+
+.Opera__Oportunity{
+    width: 5.572vw;
+    margin: 0.5vw 0vw 0vw 0vw;
+}
+
+.Bitcoin {
+    display: flex;
+    padding: 11vw 16.6vw 4vw 18.4vw;
+    justify-content: space-between;
+}
+
+.Bitcoin__Title {
+    color: white;
+    font-size: 1.7vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+}
+
+.Bitcoin__Text {
+    color: white;
+    font-size: 1vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+.Bitcoin__Button {
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 13.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: linear-gradient(150deg, #5caaff -60%, #54ff9d 159.97%);
+    box-shadow: 0.104vw 0.104vw 0.521vw rgba(53, 128, 238, 0.26);
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    font-size: 1vw;
+}
+
+.Bitcoin__Column-Left {
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
+    justify-content: space-around;
+    width: 26vw;
+}
+
+.Bitcoin__More {
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.Bitcoin__Table{
+    width: 22vw;
+}
+
+.Servicios {
+    width: 100vw;
+    margin: 8vw 0vw 6vw 0vw;
+}
+
+.Button__Partner {
+    position: absolute;
+    color: transparent;
+    -webkit-transform: translate(20vw, -173.7vw);
+    transform: translate(-80vw, 24.8vw);
+    width: 13.2vw;
+    height: 2.6vw;
+}
+
+.Button__Register {
+    position: absolute;
+    color: transparent;
+    -webkit-transform: translate(20vw, -173.7vw);
+    transform: translate(-56.3vw, 146.9vw);
+    width: 13.2vw;
+    height: 2.6vw;
+}
+
+.Services {
+    display: flex;
+    flex-direction: column;
+    padding: 6vw 0vw;
+}
+
+.Services__Title {
+    color: white;
+    font-size: 4.7vw;
+    font-style: italic;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Services__Grid {
+    display: grid;
+    grid-template: 10vw 10vw / 13vw 12vw 23vw 7vw 23vw 13vw;
+    grid-gap: 0vw 1.8vw;
+    padding: 2vw 0vw;
+}
+
+.Services__Ease {
+    grid-area: 1/3/2/3;
+    justify-self: flex-start;
+    align-self: center;
+}
+
+.Services__Ease-Img {
+    grid-area: 1/2/2/3;
+    align-self: center;
+    justify-self: flex-end;
+    width: 6vw;
+}
+
+.Services__Subtitle {
+    color: #FFFFFF;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Services__Text {
+    color: #FFFFFF;
+    font-size: 0.9vw;
+    text-align: justify;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Services__Trading {
+    grid-area: 1/5/2/6;
+    justify-self: flex-start;
+    align-self: center;
+    width: 21.7vw;
+}
+
+.Services__Trading-Img {
+    grid-area: 1/4/2/5;
+    align-self: center;
+    justify-self: flex-end;
+    width: 4.4vw;
+}
+
+.Services__Safety {
+    grid-area: 2/3/2/3;
+    justify-self: flex-start;
+    align-self: center;
+    width: 20vw;
+}
+
+.Services__Safety-Img {
+    grid-area: 2/2/2/2;
+    align-self: center;
+    justify-self: flex-end;
+    width: 5.3vw;
+}
+
+.Services__Worldwide {
+    grid-area: 3/5/2/5;
+    justify-self: flex-start;
+    align-self: center;
+}
+
+.Services__Worldwide-Img {
+    grid-area: 2/4/2/4;
+    align-self: center;
+    justify-self: flex-end;
+    width: 5vw;
+}
+
+.Learn {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 9.5vw 23.6vw 6vw 23.6vw;
+}
+
+.Learn__Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Learn__Container-Image-Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Learn__Image {
+    width: 10vw;
+    margin: 0 0 2vw 0;
+}
+
+.Learn__Button {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.4vw 1.5vw;
+    border-radius: 0.7vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5caaff), color-stop(99.97%, #54ff9d));
+    background: linear-gradient(150deg, #5caaff 0%, #54ff9d 159.97%);
+    box-shadow: 0.104vw 0.104vw 0.521vw rgba(53, 128, 238, 0.26);
+}
+
+.Learn__Grid {
+    display: grid;
+    grid-template: 26vw 5vw / 20vw 20vw 20vw 20vw 20vw;
+    padding: 1vw 0vw 3vw 0vw;
+}
+
+.Learn__Novices {
+    grid-area: 1/2/1/2;
+    justify-self: center;
+    align-self: center;
+    width: 17.8vw;
+    margin: 1.1vw 0vw 0vw 0vw;
+    filter: drop-shadow(0.8vw 0vw 0.5vw #29421030);
+}
+
+.Learn__Novices-Text{
+    grid-area: 2/2/2/2;
+    color: #FFFFFF;
+    justify-self: center;
+    font-size: 1.5vw;
+    font-family: 'Exo' , sans-serif;
+    font-weight: 400;
+}
+
+.Learn__Ebooks {
+    grid-area: 1/3/1/3;
+    justify-self: center;
+    align-self: center;
+    width: 20.9vw;
+    margin: 0.4vw 0vw 0vw 0vw;
+    filter: drop-shadow(0.8vw 0vw 0.5vw #29421030);
+}
+
+.Learn__Ebooks-Text{
+    grid-area: 2/3/2/3;
+    color: #FFFFFF;
+    justify-self: center;
+    font-size: 1.5vw;
+    font-family: 'Exo' , sans-serif;
+    font-weight: 400;
+}
+
+.Learn__Webinar {
+    grid-area: 1/4/1/4;
+    justify-self: center;
+    align-self: center;
+    width: 23.6vw;
+    margin: 1.9vw 0vw 0vw 0vw;
+    filter: drop-shadow(0.8vw 0vw 0.5vw #29421030);
+}
+
+.Learn__Webinar-Text{
+    grid-area: 2/4/2/4;
+    color: #FFFFFF;
+    justify-self: center;
+    font-size: 1.5vw;
+    font-family: 'Exo' , sans-serif;
+    font-weight: 400;
+}
+
+.Associate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Associate__Title {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Associate__Grid {
+    display: grid;
+    grid-template: 5vw 5vw / 20vw 20vw 20vw 20vw 20vw;
+    grid-gap: 2vw 0vw;
+    padding: 4vw 0vw;
+}
+
+.Associate__Row-Broker {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    grid-area: 1/2/1/2;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0vw 3vw;
+}
+
+.Associate__Img-Broker{
+    width: 2.6vw;
+}
+
+.Associate__Row-Affiliate {
+    grid-area: 1/3/1/3;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0vw 3vw;
+}
+
+.Associate__Img-Affiliate {
+    width: 3vw;
+}
+
+.Associate__Row-Academy {
+    grid-area: 1/4/1/5;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0vw 3vw;
+}
+
+.Associate__Img-Academy {
+    width: 3.5vw;
+}
+
+.Associate__Row-Finance {
+    grid-area: 2/2/2/2;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0vw 3vw;
+}
+
+.Associate__Img-Finance {
+    width: 4.1vw;
+}
+
+.Associate__Row-Support {
+    grid-area: 2/3/2/3;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0vw 3vw;
+}
+
+.Associate__Img-Support {
+    width: 3.7vw;
+}
+
+.Associate__Row-Services {
+    grid-area: 2/4/2/5;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0vw 3vw;
+}
+
+.Associate__Img-Services {
+    width: 4.1vw;
+}
+
+.Associate__Text {
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 1.2vw;
+    font-style: italic;
+}
+
+.Associate__Button {
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 13.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5caaff), color-stop(99.97%, #54ff9d));
+    background: linear-gradient(150deg, #5caaff 0%, #54ff9d 159.97%);
+    box-shadow: 0.104vw 0.104vw 0.521vw rgba(53, 128, 238, 0.26);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+}
+
+.Soon {
+    padding: 2vw 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Soon__Image {
+    width: 40vw;
+}
+
+.Soon__Container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.Soon__Container-Title {
+    font-family: 'Exo 2';
+    font-size: 2.1vw;
+    color: #FFFFFF;
+    margin: 0 0 2vw 0;
+    display: block;
+    width: 100%;
+}
+
+.Soon__Container-Text {
+    font-family: 'Exo' sans-serif;
+    font-size: 1vw;
+    color: #C7DFFF;
+    line-height: 1.5vw;
+    margin: 0 0 3vw 0;
+    display: block;
+    width: 100%;
+    text-align: justify;
+}
+
+.Soon__Container-Images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Soon__Container-Image {
+    margin: 0 0 2vw 0;
+    width: 13vw;
+}
+
+.Soon__Container-Image_Two {
+    width: 9vw;
+}
+
+
+
+
+
+
+.Soon__Advantages {
+    background: #4671AF;
+    border-width: 0.1vw;
+    border-color: #84EAFF;
+    border-style: solid;
+    border-radius: 2.1vw;
+    grid-area: 1/2/1/2;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0vw 1vw;
+}
+
+.Soon__Low-Spread {
+    background: #4671AF;
+    border-width: 0.1vw;
+    border-color: #84EAFF;
+    border-style: solid;
+    border-radius: 2.1vw;
+    grid-area: 1/3/1/3;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0vw 1vw;
+}
+
+.Soon__Bonus {
+    background: #4671AF;
+    border-width: 0.1vw;
+    border-color: #84EAFF;
+    border-style: solid;
+    border-radius: 2.1vw;
+    grid-area: 2/2/2/2;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0vw 1vw;
+}
+
+.Soon__Affiliate {
+    background: #4671AF;
+    border-width: 0.1vw;
+    border-color: #84EAFF;
+    border-style: solid;
+    border-radius: 2.1vw;
+    grid-area: 2/3/2/3;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    padding: 0vw 1vw;
+}
+
+.Soon__Text {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+
+.Soon__Button {
+    font-size: 0.7vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: linear-gradient(150deg, #5caaff 0%, #54ff9d 159.97%);
+    border-radius: 1vw;
+    width: 8vw;
+    height: 1.4vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 4vw;
+}
+
+.Ribbon {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 3vw 0vw;
+}
+
+
+.Ribbon__Img {
+    width: 63vw;
+}
+
+.Table__Grid {
+    display: grid;
+    grid-template: repeat(7, 3.75vw) / 4vw repeat(3, 10.6vw);
+    width: 35.922vw;
+    height: 26.304vw;
+    border-radius: 0.977vw;
+    background: linear-gradient(#6ecfc190 0.03%, rgba(73, 174, 203, 0.4) 100%);
+    border-style: solid;
+    border-width: 0.05vw;
+    border-color: #8EFFFF;
+}
+
+.Table__Arrow {
+    grid-area: 1/1/1/1;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+}
+
+.Table__Instrumento {
+    grid-area: 1/2/1/2;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+}
+
+.Table__Bid {
+    grid-area: 1/3/1/3;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+}
+
+.Table__Ask{
+    grid-area: 1/4/1/4;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+}
+
+.Table__Arrow1 {
+    grid-area: 2/1/2/1;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Instrumento1 {
+    grid-area: 2/2/2/2;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Bid1 {
+    grid-area: 2/3/2/3;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Ask1 {
+    grid-area: 2/4/2/4;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+
+.Table__Arrow2 {
+    grid-area: 3/1/3/1;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Instrumento2 {
+    grid-area: 3/2/3/2;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Bid2 {
+    grid-area: 3/3/3/3;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Ask2 {
+    grid-area: 3/4/3/4;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+
+.Table__Arrow3 {
+    grid-area: 4/1/4/1;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Instrumento3 {
+    grid-area: 4/2/4/2;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Bid3 {
+    grid-area: 4/3/4/3;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Ask3 {
+    grid-area: 4/4/4/4;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+
+.Table__Arrow4 {
+    grid-area: 5/1/5/1;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Instrumento4 {
+    grid-area: 5/2/5/2;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Bid4 {
+    grid-area: 5/3/5/3;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Ask4 {
+    grid-area: 5/4/5/4;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Arrow5 {
+    grid-area: 6/1/6/1;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Instrumento5 {
+    grid-area: 6/2/6/2;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Bid5 {
+    grid-area: 6/3/6/3;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Ask5 {
+    grid-area: 6/4/6/4;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Arrow6 {
+    grid-area: 7/1/7/1;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Instrumento6 {
+    grid-area: 7/2/7/2;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Bid6 {
+    grid-area: 7/3/7/3;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Table__Ask6 {
+    grid-area: 7/4/7/4;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.Transform {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2vw;
+    grid-area: 7/5/1/1;
+    justify-self: center;
+    align-self: center;
+}

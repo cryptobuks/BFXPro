@@ -1,0 +1,89 @@
+.Header {
+
+}
+
+.Header__Header {
+   background-image: url('../../assets/img/DemoAccount/background-header.png');
+   background-repeat: no-repeat;
+   background-position: 0vw 0vw;
+   background-size: 100vw 72vw;
+   margin-top: -11vw;
+   height: 38.9vw;
+}
+
+.Header__Header-Img-Button {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 9vw 0px 0vw 0;
+    height: 32vw;
+}
+
+.Header__Header-Img {
+   width: 23vw;
+}
+
+.Header__Header-Button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.Header__Header-Button-Text {
+    font-family: 'Exo 2';
+    font-size: 2vw;
+    color: #FFFFFF;
+    text-align: center;
+    width: 26vw;
+    margin: 0 0 3vw 0;
+ }
+ 
+ .Header__Header-Button-Button {
+    font-family: 'Exo 2';
+    font-size: 1.1vw;
+    color: #FFFFFF;
+    text-align: center;
+    background: #41a9ff;
+    background: -webkit-linear-gradient(to right, #41a9ff, #00ff91);
+    background: linear-gradient(to right, #41a9ff, #00ff91);
+    border: none;
+    outline: none;
+    padding: 0.8vw 2vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    text-decoration: none;
+ }
+ 
+ .Header__Header-Footer {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background: radial-gradient(rgba(99, 169, 255, 0.2) -2.52%, rgba(75, 138, 218, 0.5) -2.02%, rgba(72, 106, 194, 0.2) 68.89%); 
+    padding: 1vw 0;
+    border-top-style: solid;
+    border-top-width: 0.07vw;
+    border-top-color: #4B80E1;
+ }
+ 
+ .Header__Header-Footer-Title-Text {
+    width: 15vw;
+ }
+ 
+ .Header__Header-Footer-Title {
+    display: block;
+    font-family: 'Exo 2';
+    font-size: 1.9vw;
+    color: #7BC57B;
+    font-style: italic;
+ }
+ 
+ .Header__Header-Footer-Text {
+    display: block;
+    font-family: 'Exo 2';
+    font-size: 1.1vw;
+    color: #FFFFFF;
+ }

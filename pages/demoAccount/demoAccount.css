@@ -1,0 +1,163 @@
+.DemoAccount {
+
+}
+
+.DemoAccount__Header {
+   background-image: url('../../assets/img/DemoAccount/background-header.png');
+   background-repeat: no-repeat;
+   background-position: 0vw 0vw;
+   background-size: 100vw 72vw;
+}
+
+.DemoAccount__Header-Img-Button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2vw 0;
+}
+
+.DemoAccount__Header-Img {
+   width: 23vw;
+}
+
+.DemoAccount__Header-Button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.DemoAccount__Header-Button-Text {
+   font-family: 'Exo 2';
+   font-size: 2vw;
+   color: #FFFFFF;
+   text-align: center;
+   width: 26vw;
+   margin: 0 0 3vw 0;
+}
+
+.DemoAccount__Header-Button-Button {
+   font-family: 'Exo 2';
+   font-size: 1.1vw;
+   color: #FFFFFF;
+   text-align: center;
+   background: #41a9ff;
+   background: -webkit-linear-gradient(to right, #41a9ff, #00ff91);
+   background: linear-gradient(to right, #41a9ff, #00ff91);
+   border: none;
+   outline: none;
+   padding: 0.8vw 2vw;
+   border-radius: 1vw;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.DemoAccount__Header-Footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background: linear-gradient(rgba(99, 169, 255, 0.2) 0.48%, rgba(75, 138, 218, 0.5) 37.98%, rgba(72, 106, 194, 0.2) 99.89%);
+   padding: 1vw 0;
+   margin: 4vw 0 0 0;
+}
+
+.DemoAccount__Header-Footer-Title-Text {
+   width: 15vw;
+}
+
+.DemoAccount__Header-Footer-Title {
+   display: block;
+   font-family: 'Exo 2';
+   font-size: 1.9vw;
+   color: #7BC57B;
+   font-style: italic;
+}
+
+.DemoAccount__Header-Footer-Text {
+   display: block;
+   font-family: 'Exo 2';
+   font-size: 1.1vw;
+   color: #FFFFFF;
+}
+
+.DemoAccount__Body {
+   background-image: url('../../assets/img/DemoAccount/background-body.png');
+   background-repeat: no-repeat;
+   background-position: 0vw 0vw;
+   background-size: 100vw 80vw;
+   padding: 6vw 20vw;
+}
+
+.DemoAccount__Body-Title {
+   display: block;
+   font-family: 'Exo 2';
+   font-size: 1.9vw;
+   color: #008CF2;
+   margin: 0 0 2.8vw 0;
+}
+
+.DemoAccount__Body-Subtitle {
+   display: block;
+   font-family: 'Exo' sans-serif;
+   font-size: 1.6vw;
+   color: #183C76;
+   margin: 0 0 2vw 0;
+   text-align: justify;
+}
+
+.DemoAccount__Body-Text {
+   display: block;
+   font-family: 'Exo' sans-serif;
+   font-size: 1.05vw;
+   line-height: 1.6vw;
+   color: #183C76;
+   margin: 0 0 2vw 0;
+   text-align: justify;
+}
+
+.DemoAccount__Body-Buttons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.DemoAccount__Body-Button-One {
+   background: #41a9ff;
+   background: -webkit-linear-gradient(to right, #41a9ff, #00ff91);
+   background: linear-gradient(to right, #41a9ff, #00ff91);
+   font-family: 'Exo 2', sans-serif;
+   font-size: 0.8vw;
+   color: #FFFFFF;
+   padding: 0.5vw 2vw;
+   border-radius: 1vw;
+   border: none;
+   outline: none;
+   margin: 0 1vw 0 0;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.DemoAccount__Body-Button-Two {
+   background: #41a9ff;
+   font-family: 'Exo 2', sans-serif;
+   font-size: 0.8vw;
+   color: #FFFFFF;
+   padding: 0.5vw 2vw;
+   border-radius: 1vw;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.Ribbon {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   padding: 3vw 0vw;
+ }
+ 
+ 
+ .Ribbon__Img {
+   width: 63vw;
+ }

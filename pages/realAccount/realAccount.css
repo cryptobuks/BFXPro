@@ -1,0 +1,66 @@
+
+.RealAccount__Body {
+   background-image: url('../../assets/img/DemoAccount/background-body.png');
+   background-repeat: no-repeat;
+   background-position: 0vw 0vw;
+   background-size: 100vw 80vw;
+   padding: 6vw 20vw;
+}
+
+.RealAccount__Body-Title {
+   display: block;
+   font-family: 'Exo 2';
+   font-size: 1.9vw;
+   color: #008CF2;
+   margin: 0 0 2.8vw 0;
+}
+
+.RealAccount__Body-Subtitle {
+   display: block;
+   font-family: 'Exo' sans-serif;
+   font-size: 1.6vw;
+   color: #183C76;
+   margin: 0 0 2vw 0;
+}
+
+.RealAccount__Body-Text {
+   display: block;
+   font-family: 'Exo' sans-serif;
+   font-size: 1.05vw;
+   line-height: 1.6vw;
+   color: #183C76;
+   margin: 0 0 2vw 0;
+}
+
+.RealAccount__Body-Label {
+   display: block;
+   font-family: 'Exo' sans-serif;
+   font-size: 0.8vw;
+   line-height: 1.6vw;
+   color: #183C76;
+   margin: 0 0 0.1vw 0;
+}
+
+.RealAccount__Body-Input {
+   width: 16vw;
+   border-radius: 0.3vw;
+   outline: none;
+   border: solid 0.05vw #008CF2;
+   padding: 0.4vw 0.6vw;
+   font-family: 'Exo' sans-serif;
+   font-size: 0.8vw;
+   color: #183C76;
+}
+
+
+.Ribbon {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   padding: 3vw 0vw;
+}
+
+
+.Ribbon__Img {
+   width: 63vw;
+}

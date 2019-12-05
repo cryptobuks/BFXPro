@@ -1,0 +1,75 @@
+<div>
+        <Navbar />
+        <Header :title=titleName :button=buttonName :img=imgRoute />
+        <div class="Privacy">
+                <h2 class="Privacy__Title">Política sobre vuelcos</h2> <br>
+                <h3 class="Privacy__Subtitle">Definición</h3> <br>
+                <p  class="Privacy__Text">Los vuelcos, conocido también como swap o tasa overnight, es un interés que se paga o se gana como resultado de mantener una posición abierta en un derivado hasta el día siguiente. La política de rollover tiene el objetivo de establecer y mantener una tarifa justa para todos los valores negociables y todas las clases de activos. En la mayoría de los valores disponibles, aparte el oro y las criptodivisas, la tasa de rollover se compone de un tipo de interés interno más o menos la tasa de rollover que recibimos de las contrapartes con las que colaboramos para cada valor respectivo. Para los restantes instrumentos, debido a su volatilidad, la tarifa final también tiene en cuenta un análisis de riesgo y mercado interno llevado a cabo por la compañía. Las tasas de rollover se calculan de forma continua y se modifican cuando es necesario.</p><br>
+                <div class="Privacy__Flex">
+                        <p class="Privacy__Text-Table">
+                                Rollover Calculation - Example<br>
+                                Rollover Debit Simulation<br>
+                                Account Base Currency: EUR<br>
+                                Security: USA100 (Nasdaq)<br>
+                                Position Size: 1 lot (1 Contract)<br>
+                                Side: Buy (Long)<br>
+                                Currency Rate: EURUSD<br><br>
+                                
+                                Rollover Fee Formula = Position Size * (Counterparty Fee * Internal Interest Fee) * Pip Value) / Currency Rate<br>
+                                Calculation: 1 * (-0.70 * 1.30) * 1.00 / 1.1610 = $-0.78<br>
+                        </p>
+                        <p class="Privacy__Text-Table">
+                                Rollover Credit Simulation<br>
+                                Account Base Currency: USD<br>
+                                Security: GBPUSD<br>
+                                Position Size: 0.50 Lots (50,000)<br>
+                                Side: Sell (Short)<br>
+                                Currency Rate: USD<br><br>
+                                
+                                Rollover Fee Formula = Position Size * (Counterparty Fee * Internal Interest Fee) * Pip Value) / Currency Rate<br><br>
+                                
+                                Calculation: 0.50 * (0.45 * 0.70) * 10.00 / 1 = $1.57<br>
+                        </p>
+                </div> <br><br>
+                <h3 class="Privacy__Subtitle">Vuelcos de acciones y pago de dividendos</h3><br>
+                <p class="Privacy__Text">Shares rollover fees are derived from the underlying value of the contract times the interbank LIBOR rates, +/- internal interest fees.
+                The calculation is based upon 365 days of trading for UK shares and 360 for all other offered shares.</p><br>
+                <div class="Privacy__Flex">
+                <p class="Privacy__Text-Table">
+                        Shares Calculation - Example <br>
+                        Share Rollover Simulation<br>
+                        Account Base Currency: USD<br>
+                        Account Quote Currency: USD<br>
+                        Security: FaceBook<br>
+                        Position Size: 1 lot = Contract Size 100 Shares<br>
+                        Side: Buy (LONG)<br>
+                        Share Rollover Formula: (Notional value * (LIBOR +/- Internal Interest Fee))/360)<br>
+                        Calculation: (20,000 * (2.24% + 2.15% ) ) / 360 = -$2.44)<br>
+                        Due to a stock share's price adjustment on dividends pay outs, the rollover fee will be adjusted to make up for the correction of the share prices during that day.
+                        The day after the dividends are paid the shares rollover fee usually goes back to the initial fixed rate.
+                </p>
+                <p class="Privacy__Text-Table">
+                        Dividends Calculation - Example<br>
+                        Dividend Adjustment Simulation<br>
+                        Account Base Currency: USD<br>
+                        Account Quote Currency: USD<br>
+                        Security: Goldman Sachs<br>
+                        Position Size: 1 lot = Contract Size 100 Shares<br>
+                        Side: Sell (Short)<br>
+                        Ex-dividend amount: 0.80 USD (per share)<br>
+                        Dividend Adjustment Formula: Contract Size * (Dividend amount * Internal Interest Fee)<br>
+                        Calculation: 100 * (0.80 * -1.30) = -104 USD<br>
+                </p>
+                </div><br>
+                <h3 class="Privacy__Subtitle">Programa de carga de reinversión</h3><br>
+                <p class="Privacy__Text">
+                        The beginning and end of the trading day is considered to be 00:00 by our servers. Any position left open at 00:00 (server time) is considered to be held overnight and is subject to rollover fees. A position opened at 00:01 (server time) is not subject to rollover until the next day, while a position opened at 23:59 (server time) is subject to rollover at 00:00 (server time).<br><br>
+                        A credit or debit for each position opened at 00:00 will appear in your account, it is applied directly to the trade via the swap field and reflects automatically into your account balance.<br><br>
+                        Server Times<br>
+                        GMT+3: Last Sunday of March to Last Sunday of October<br>
+                        GMT+2: Last Sunday of October to Last Sunday of March<br>
+                </p> <br> <br> <br>
+                <Ribbon/>
+        </div>
+        <Footer />
+</div>

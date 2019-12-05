@@ -1,0 +1,259 @@
+.Footer {
+    background: radial-gradient(#455dab 0vw, #3e549b -18.2%, #344782 -2.37%, #31437b -11.55%, #2a3969 67.25%, #283764 77.32%);
+    border-top-style: solid;
+    border-top-color: #435CAA;
+    border-top-width: 0.01vw;
+    width: 100%;
+    height: 16.5vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.Footer__Margins {
+    margin: 4vw 10vw 4.1vw 10vw;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 78.9vw;
+    height: 34vw;
+}
+
+.Footer__Row {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer__Login-Flex {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer__Info-Flex {
+    color: white;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 0.83vw;
+    width: 50vw;
+}
+
+.Footer__About {
+    color: white;
+    text-decoration: none;
+}
+
+.Footer__Coming-Flex {
+    color: white;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 0.83vw;
+    width: 50vw;
+}
+
+
+.Footer__Coming {
+    color: #8697B4;
+    text-decoration: none;
+}
+
+.Footer__Contact {
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    font-size: 0.973vw;
+    line-height: 0.688vw;
+    text-align: left;
+    color: #fff;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0vw 1vw;
+    width: 8vw;
+    height: 2vw;
+}
+
+.Footer__Login {
+    width: 5.63vw;
+    height: 1.779vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.973vw;
+    border-radius: 0.248vw;
+    background: #008deb;
+    text-align: center;
+    line-height: 1.3vw;
+    margin: 0vw 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+.Footer__Signup {
+    width: 10.63vw;
+    height: 1.779vw;
+    display: -webkit-box;
+    display: flex;
+    border-radius: 0.2vw;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 0.973vw;
+    background: #32bb72;
+    line-height: 1.3vw;
+    text-align: center;
+    margin: 0vw 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+.Footer__Text-Legal {
+    padding: 1.5vw 1vw 0.5vw 1vw;
+    font-size: 0.938vw;
+    text-decoration: none;
+    color: white;
+}
+
+.Footer__Social-Flex {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1vw 9vw;
+}
+
+.Footer__Img {
+    width: 1vw;
+    height: 1vw;
+}
+
+.Footer__Column-Coming {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1023px) {
+    .Footer {
+        height: 47.7vw;
+        margin-top: -10vw;
+    }
+    .Footer__Info-Flex {
+        display: none;
+    }
+    .Footer__Margins {
+        margin: 7vw 10vw 10vw 12vw;
+        justify-content: center;
+    }
+    .Footer__Contact {
+        font-size: 2.673vw;
+        line-height: 0.688vw;
+    }
+    
+    .Footer__Login {
+        width: 14.63vw;
+        height: 4.279vw;
+        font-size: 3vw;
+        line-height: 3.8vw;
+        border-radius: 0.948vw;
+    }
+
+    .Footer__Login-Flex {
+        padding: 2vw 0vw;
+    }
+    
+    .Footer__Signup {
+        width: 31.63vw;
+        height: 4.279vw;
+        font-size: 3vw;
+        line-height: 3.8vw;
+        border-radius: 0.948vw;
+    }
+    
+    .Footer__Text-Legal {
+        font-size: 2.938vw;
+    }
+
+    .Footer__Social-Flex {
+        padding: 4vw 1vw;
+    }
+
+    .Footer__Img {
+        width: 4vw;
+        height: 4vw;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .Footer {
+        height: 100vw;
+        margin-top: -8vw;
+        background-size: 421vw;
+    }
+    .Footer__Info-Flex {
+        display: none;
+    }
+    .Footer__Margins {
+        margin: 30vw 12vw 36vw 10vw;
+        justify-content: center;
+    }
+    .Footer__Contact {
+        font-size: 2.673vw;
+        line-height: 0.688vw;
+    }
+    
+    .Footer__Login {
+        width: 14.63vw;
+        height: 4.279vw;
+        font-size: 3vw;
+        line-height: 3.8vw;
+        border-radius: 0.948vw;
+    }
+
+    .Footer__Login-Flex {
+        padding: 2vw 0vw;
+    }
+    
+    .Footer__Signup {
+        width: 31.63vw;
+        height: 4.279vw;
+        font-size: 3vw;
+        line-height: 3.8vw;
+        border-radius: 0.948vw;
+    }
+    
+    .Footer__Text-Legal {
+        font-size: 2.938vw;
+    }
+
+    .Footer__Social-Flex {
+        padding: 4vw 1vw;
+    }
+
+    .Footer__Img {
+        width: 4vw;
+        height: 4vw;
+    }
+}

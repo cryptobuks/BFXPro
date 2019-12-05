@@ -1,0 +1,152 @@
+.Options {
+    background: url('../../assets/img/Options/bg-options.webp');
+    width: 100vw;
+    height: auto;
+    background-position: -1vw -18.1vw;
+    background-size: 103vw;
+    background-repeat: no-repeat;
+}
+
+.Options__Main-Column {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding: 5vw 10vw;
+    width: 100vw;
+    height: 21vw;
+    justify-content: space-between;
+}
+
+.Options__Title {
+    font-family: 'Exo',sans-serif;
+    font-weight: 800;
+    font-size: 2vw;
+    color: #FFFFFF;
+}
+
+.Options__Sub {
+    font-family: 'Exo',sans-serif;
+    font-weight: 700;
+    font-size: 1vw;
+    color: #FFFFFF;
+}
+
+.Options__Text {
+    font-family: 'Exo',sans-serif;
+    font-weight: 400;
+    font-size: 0.8vw;
+    color: #FFFFFF;
+}
+
+.Options__Row {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    width: 27.8vw;
+    justify-content: space-between;
+}
+
+.Options__Button-Demo {
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 13.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5caaff), color-stop(99.97%, #54ff9d));
+    background: linear-gradient(150deg, #5caaff 0%, #54ff9d 159.97%);
+    box-shadow: 0.104vw 0.104vw 0.521vw rgba(53, 128, 238, 0.26);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+}
+
+.Options__Button-Real {
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 13.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: #008deb;
+    box-shadow: 2px 2px 10px rgba(53, 128, 238, 0.26);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+}
+
+.Options__Buttons-Flex {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 58vw;
+    padding: 13vw 20vw 0vw 13vw;
+}
+
+.Options___Button-Deposit{
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 10.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: linear-gradient(150deg, #5caaff 0%, #54ff9d 159.97%);
+    box-shadow: 0.104vw 0.104vw 0.521vw rgba(53, 128, 238, 0.26);
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.Options___Button-Withdrawals{
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 10.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5caaff), color-stop(99.97%, #54ff9d));
+    background: linear-gradient(150deg, #5caaff 0%, #54ff9d 159.97%);
+    box-shadow: 0.104vw 0.104vw 0.521vw rgba(53, 128, 238, 0.26);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.Options___Button--Disabled {
+    background: transparent;
+    border-style: solid;
+    border-width: 0.05vw;
+    border-color: #707070;
+    filter: drop-shadow(0vw 0vw 0.02vw #127EF526);
+}
+
+.Options__Table {
+    padding: 3vw 13vw;
+}
+
+.Ribbon {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 3vw 0vw;
+}
+
+
+.Ribbon__Img {
+    width: 63vw;
+}

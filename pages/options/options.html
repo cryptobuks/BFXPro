@@ -1,0 +1,27 @@
+<div class="Options">
+    <Navbar/>
+    <div class="Options__Main-Column">
+        <h1 class="Options__Title">Opciones de Depósito</h1>
+        <h2 class="Options__Sub">Transfiera fondos a su cuenta</h2>
+        <h3 class="Options__Text">
+            Transacciones rápidas 24/5 durante el horario estándar de mercado. <br>
+            COMISIÓN: BFX PRO no se aplica a los derechos de depósito.
+        </h3>
+        <div class="Options__Row">
+            <a target="_blank" rel="nofollow" href="https://my.bfxpro.io/trade/platform/MetaTrader5" class="Options__Button-Real" to="">ABRIR CUENTA EN VIVO</a href="">
+            <a target="_blank" rel="nofollow" href="https://my.bfxpro.io/trade/platform/MetaTrader5"class="Options__Button-Demo" to="">ABRIR CUENTA DEMO</a href="">
+        </div>
+    </div>
+    <div class="Options__Buttons-Flex" >
+        <h3 @click="changeDepositStyle" class="Options___Button-Deposit" :class="[ deposit ? '' : 'Options___Button--Disabled']">Depósitos</h3>
+        <h3  @click="changeWithdrawalStyle" class="Options___Button-Withdrawals" :class="[ withdrawal ? '' : 'Options___Button--Disabled']" >Retiros</h3>
+    </div>
+    <div class="Options__Table">
+        <Withdrawals v-if="withdrawal" />
+        <Deposits v-if="deposit"/>
+    </div>
+    <div class="Ribbon">
+            <img src="../../assets/img/Ribbon/Ribbon.svg" class="Ribbon__Img">
+    </div>
+    <Footer /> 
+</div>

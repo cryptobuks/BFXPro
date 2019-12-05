@@ -1,0 +1,48 @@
+{
+    "navbar": {
+        "contact": "Contacto 24/5",
+        "login": "Ingresar",
+        "open": "Abrir Cuenta",
+        "about": "Acerca de",
+        "products": "Productos",
+        "accounts": "Cuentas",
+        "training": "Entrenamiento",
+        "who": "¿Quienes somos?",
+        "why": "¿Porqué BFX PRO?",
+        "real": "Cuenta Real",
+        "demo" : "Cuenta Demo",
+        "options" : "Opciones de Depósito",
+        "investment" : "Investment Management",
+        "ib" : "Partners (IB)",
+        "pamm" : "PAMM",
+        "mam" : "MAM",
+        "social" : "Social Trading"
+    },
+    "hero": {
+        "operate": "Opere con Confianza",
+        "markets": "en los Mercados",
+        "financial": "Financieros",
+        "with": "con un Broker de Última Generación",
+        "start": "COMENZAR AHORA",
+        "instruments": "Instrumentos de",
+        "trading": "Trading",
+        "times": "Tiempos",
+        "execution": "De ejecución",
+        "leverage": "Apalancamiento",
+        "options": "Opciones de",
+        "deposit": "Depósito"
+    },
+    "index": {
+        "smart": "Realice Operaciones Inteligentes",
+        "markets": "con un Broker de Última Generación",
+        "financial": "ABRIR CUENTA REAL",
+        "with": "ABRIR CUENTA DEMO",
+        "start": "Comience a Operar en los ",
+        "instruments": "Mercados Más Rentables del Mundo",
+        "trading": "Utilice las herramientas avanzadas en gestión de riesgos de BFX PRO para proteger sus posiciones. Disfrute de depósitos y retiradas sin complicaciones, ejecución de mercado de sus operaciones y una cuenta gratuita de demostración con $10,000 para practicar su estrategia.",
+        "times": "Empiece a invertir en cuestión de minutos, sin retrasos en las ejecuciones.",
+        "execution": "Obtenga beneficios de la fluctuación de los activos de manera sencilla.",
+        "leverage": "Elija su importe deseado de inversión, desde un mínimo de $25 por cuenta.",
+        "options": "¡Volatilidad significa oportunidad! Vea como la fluctuación en los precios se reflejan directamente en su portafolio."
+    }
+}

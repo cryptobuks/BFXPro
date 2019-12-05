@@ -1,0 +1,48 @@
+.Counter {
+    display: flex;
+    justify-content: center;
+    font-family: "Proxima Nova",sans-serif;
+    font-weight: normal;
+    font-size: 1.549vw;
+    line-height: 1.859vw;
+    text-align: left;
+    color: #fff;
+}
+
+.Prueba {
+    background: chocolate;
+    cursor: pointer;
+}
+
+.Counter__Col {
+    padding: 0vw 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Counter__Number {
+    font-family: "Proxima Nova", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 3.238vw;
+    line-height: 3.886vw;
+    text-align: center;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 414px) {
+    .Counter{
+        padding: 3vw 0vw;
+        font-size: 6vw;
+        line-height: 8.859vw;
+    }
+
+    .Counter__Number {
+        font-size: 7.238vw;
+        line-height: 8.886vw;
+    }
+}
+

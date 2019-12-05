@@ -1,0 +1,12 @@
+.Ribbon {
+        width: 100vw;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        padding: 3vw 0vw;
+}
+
+.Ribbon__Image {
+    width: 69vw;
+}

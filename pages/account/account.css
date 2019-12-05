@@ -1,0 +1,88 @@
+.Account {
+    background: url('../../assets/img/DemoAccount/background-body.png');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center 0vw;
+    height: auto;
+    padding: 4vw 12vw 4vw 12vw;
+    width: 100vw;
+}
+
+.Account__Title {
+    font-family: 'Exo', sans-serif;
+    color: #008CF2;
+    font-size: 2vw;
+}
+
+.Account__Subtitle {
+    font-size: 1.8vw;
+    color: #183C76;
+    font-weight: 500;
+    font-family: 'Exo', sans-serif;
+}
+
+.Account__Text {
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: justify;
+    color: #183C76;
+}
+
+.Account__Row {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    padding: 1.5vw 0vw;
+    width: 27.5vw;
+    justify-content: space-between;
+}
+
+.Account__Button-Demo {
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 13.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5caaff), color-stop(99.97%, #54ff9d));
+    background: linear-gradient(150deg, #5caaff 0%, #54ff9d 159.97%);
+    box-shadow: 0.104vw 0.104vw 0.521vw rgba(53, 128, 238, 0.26);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+}
+
+.Account__Button-Real {
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    width: 13.319vw;
+    height: 2.484vw;
+    border-radius: 0.826vw;
+    background: #008deb;
+    box-shadow: 2px 2px 10px rgba(53, 128, 238, 0.26);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+}
+
+.Account__Text-Table {
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: justify;
+    color: #183C76;
+    width: 25vw;
+}
+
+
+.Account__Flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 8vw;
+}
